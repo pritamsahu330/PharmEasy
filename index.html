@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediLink Prescription Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>MediLink Prescription Management</h1>
+
+      <section>
+        <h2>Prescription Medicines</h2>
+        <ul id="medicine-list"></ul>
+      </section>
+
+      <section>
+        <h2>Cart</h2>
+        <ul id="cart-list"></ul>
+        <p><strong>Total:</strong> $<span id="cart-total">0.00</span></p>
+      </section>
+
+      <section>
+        <h2>Expense Summary</h2>
+        <p><strong>Prescription:</strong> #<span id="prescription-id"></span></p>
+        <p><strong>Items:</strong> <span id="item-count">0</span></p>
+        <p><strong>Total Expense:</strong> $<span id="total-expense">0.00</span></p>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "medilink",
+  "version": "1.0.0",
+  "description": "Prescription management site for medicine cart and expense tracking",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 4173"
+  },
+  "keywords": [
+    "prescription",
+    "medicine",
+    "cart",
+    "expenses"
+  ],
+  "author": "",
+  "license": "ISC"
+}
